@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: Google Sans;
+    src: url('font/GoogleSans-Regular.ttf');
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(219deg, rgba(220,255,229,1) 0%, rgba(217,255,213,1) 35%, rgba(206,255,223,1) 81%, rgba(142,255,183,1) 100%);
+}
+
+nav {
+    backdrop-filter: blur(10px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Google Sans", sans-serif !important;
+}
+
+.letter {
+    letter-spacing: 8px;
+}
+
+.icon {
+    color: green;
+    font-size: 1.4rem;
+    transition: all ease 0.3s;
+}
+
+.icon:hover {
+    color: rgb(0, 54, 0);
+    font-size: 1.6rem;
+}
+
+.nav-link {
+    font-weight: 500 !important;
+    transition: all ease 0.3s;
+}
+
+.nav-link:hover {
+    font-weight: 800 !important;
+}
+
+.font-bold {
+    font-weight: 700 !important;
+    transition: all ease 0.5s;
+}
+
+.font-bold:hover {
+    font-weight: 800 !important;
+}
+
+abbr {
+    text-decoration: underline !important;
+}
+
+.jumbotron {
+    min-height: calc(100vh - 60px);
+}
+
+footer {
+    background: #1e435a;
+}
+
+.link-none {
+    text-decoration: none !important;
+    transition: all 0.3s;
+}
+
+.link-none:hover {
+    font-size: 1.1rem;
+}
+
+.btn-outline-light {
+    border-color: white !important;
+    color: #fff !important;
+}
+
+.btn-outline-light:hover {
+    border-color: white !important;
+    background: white !important;
+    color: #212529 !important;
+    transition: outline 0.15s;
+}
+
+.btn-outline-light:focus {
+    outline: 3px solid white !important;
+}
+
+.carousel-item img{
+height: 260px !important;
+  }     
