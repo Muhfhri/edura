@@ -25,17 +25,17 @@ h6 {
 }
 
 .letter {
-    letter-spacing: 8px;
+    letter-spacing: 4px;
 }
 
 .icon {
-    color: green;
+    color: #198754;
     font-size: 1.4rem;
     transition: all ease 0.3s;
 }
 
 .icon:hover {
-    color: rgb(0, 54, 0);
+    color: rgb(0, 59, 0);
     font-size: 1.6rem;
 }
 
