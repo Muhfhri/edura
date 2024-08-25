@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(219deg, rgba(220,255,229,1) 0%, rgba(217,255,213,1) 35%, rgba(206,255,223,1) 81%, rgba(142,255,183,1) 100%);
+    background: linear-gradient(219deg, rgba(220, 255, 229, 1) 0%, rgba(217, 255, 213, 1) 35%, rgba(206, 255, 223, 1) 81%, rgba(142, 255, 183, 1) 100%);
 }
 
 nav {
@@ -94,7 +94,14 @@ footer {
     outline: 3px solid white !important;
 }
 
-.carousel-item img{
-height: 260px !important;
-width: 27rem;
-  }     
+.carousel-item img {
+    height: 260px !important;
+    width: 27rem;
+}
+
+@media (max-width: 991.98px) {
+    .letter {
+        margin-left: auto;
+        text-align: center;
+    }
+}
