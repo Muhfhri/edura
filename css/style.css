@@ -5,10 +5,14 @@
     font-family: Google Sans;
     src: url('font/GoogleSans-Regular.ttf');
 }
+@font-face {
+    font-family: Nexa;
+    src: url('font/Nexa-Heavy.ttf');
+}
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(219deg, rgba(220, 255, 229, 1) 0%, rgba(217, 255, 213, 1) 35%, rgba(206, 255, 223, 1) 81%, rgba(142, 255, 183, 1) 100%);
+    background: rgba(220, 255, 229, 1);
 }
 
 nav {
@@ -21,7 +25,16 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Google Sans", sans-serif !important;
+    font-family: "Google Sans", sans-serif;
+}
+
+.nexa {
+    font-family: "Nexa", sans-serif !important;
+}
+
+.edura-logo {
+    font-family: "Nexa", sans-serif !important;
+    letter-spacing: -3px;
 }
 
 .letter {
