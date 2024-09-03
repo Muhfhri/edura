@@ -19,6 +19,15 @@ nav {
     backdrop-filter: blur(10px);
 }
 
+.hover {
+    width: 150px;
+    transition: all 0.5s ease;
+}
+
+.hover:hover {
+    width: 170px;
+}
+
 h1,
 h2,
 h3,
@@ -108,7 +117,7 @@ footer {
 }
 
 .carousel-item img {
-    height: 260px !important;
+    height: 29rem !important;
     width: 27rem;
 }
 
@@ -116,5 +125,17 @@ footer {
     .letter {
         margin-left: auto;
         text-align: center;
+    }
+
+    .carousel-item img {
+        height: 23rem !important;
+        width: 27rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .carousel-item img {
+        height: 20rem !important;
+        width: 24rem;
     }
 }
